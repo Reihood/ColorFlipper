@@ -3,5 +3,7 @@ const btn = document.getElementById("btn")
 const color = document.querySelector(".color")
 
 btn.addEventListener('click', function(){
-    console.log(document.body)
+    // Obtiene un numero al azar entre el 0 - 3
+    const randomNumber = 2;
+    document.body.style.backgroundColor = colors[randomNumber];
 })
